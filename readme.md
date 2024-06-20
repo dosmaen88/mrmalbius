@@ -3,7 +3,7 @@
 
 About:
 
-MR_Malibus is a bot that I am writing for the GamingW discord using Python.
+Mr_Malibus is a bot that I am writing for the GamingW discord using Python.
 Feel free to do whatever with this code.
 
 
