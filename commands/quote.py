@@ -10,7 +10,7 @@ async def quote(ctx):
         data = json.load(json_file)
     quotesdata = [quotes.Quotes(item['author'],item['quote']) for item in data]
     randquote = random.choice(quotesdata)
-    embedVar = discord.Embed(title=randquote.author, description=randquote.quote, color=discord.Color.blue())
+    embedVar = discord.Embed(title="A quote by: "+randquote.author, description=randquote.quote, color=discord.Color.blue())
     
     await ctx.send("", embed=embedVar, ephemeral=True)
 
