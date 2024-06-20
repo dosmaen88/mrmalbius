@@ -1,26 +1,27 @@
 # MR_MALIBUS
 
 
-#About
-MR_Malibus is a bot that I am writing for the GamingW discord.
+About:
+
+MR_Malibus is a bot that I am writing for the GamingW discord using Python.
 Feel free to do whatever with this code.
 
 
 
-#Configuration
+Configuration:
 
-#Dependencies
+Dependencies:
 loadenv for loading the environment variables
 Discord.py
 
-#Create configuration file:
+Create configuration file:
 Put the following in a .env file:
 ```
 DISCORD_TOKEN={Discord bot token}
 WEATHER_KEY=0 to disable or put your OpenWeatherAPI key here
 ```
 
-#Modules:
+Modules:
 
 |  Module | Description   |
 | ------------ | ------------ |
