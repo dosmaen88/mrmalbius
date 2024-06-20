@@ -1,10 +1,18 @@
 [
-    "sample quotes go here",
-    "beautiful words and fluffy things",
-    "test",
-    "work damn it",
-    "okay it works",
-    "<:Sober:787543923693584415>",
-    "test",
-    "hello world"
+    {
+        "author": "test",
+        "quote": "test"
+    },
+    {
+        "author": "test2",
+        "quote": "test2"
+    },
+    {
+        "author": "test",
+        "quote": "testing"
+    },
+    {
+        "author": "test",
+        "quote": "testing things out"
+    }
 ]

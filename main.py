@@ -4,6 +4,7 @@ import asyncio
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from data import quotes
 
 load_dotenv()
 
@@ -11,7 +12,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.all()
 intents.message_content = True;
-
+quotes.initializeJSON()
 client = commands.Bot(command_prefix = "!", intents=intents)
 
 
