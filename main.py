@@ -12,7 +12,10 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.all()
 intents.message_content = True;
-quotes.initializeJSON()
+
+#uncomment this out if you would like for the bot to create a json file for you
+#quotes.initializeJSON()
+
 client = commands.Bot(command_prefix = "!", intents=intents)
 
 
