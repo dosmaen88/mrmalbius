@@ -1,0 +1,5 @@
+.env
+commands/__pycache__/addquote.cpython-312.pyc
+commands/__pycache__/example.cpython-312.pyc
+commands/__pycache__/quote.cpython-312.pyc
+commands/__pycache__/weather.cpython-312.pyc
