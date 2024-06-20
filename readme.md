@@ -11,11 +11,15 @@ Feel free to do whatever with this code.
 Configuration:
 
 Dependencies:
+
 loadenv for loading the environment variables
+
 Discord.py
 
 Create configuration file:
+
 Put the following in a .env file:
+
 ```
 DISCORD_TOKEN={Discord bot token}
 WEATHER_KEY=0 to disable or put your OpenWeatherAPI key here
