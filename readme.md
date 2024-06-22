@@ -1,9 +1,9 @@
-# MR_MALIBUS
+# MR_MALBIUS
 
 
 About:
 
-Mr_Malibus is a bot that I am writing for the GamingW discord using Python.
+Mr_Malbius is a bot that I am writing for the GamingW discord using Python.
 Feel free to do whatever with this code.
 
 
@@ -33,6 +33,7 @@ Modules:
 | weather |  Uses openweather api to give you a rudimentary weather forecast. Usage: !weather cityname |
 | randomgame | pulls a random free game from itch.io |
 | weenboard | Locates where my friend's Territorial.io clan is|
+| ween | Displays a random hotdog themed image for my friend's discord server |
 
 
 
