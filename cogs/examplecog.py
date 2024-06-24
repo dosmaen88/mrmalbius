@@ -15,7 +15,7 @@ class examplecog(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
         #don't bother if it's the bot
-        if message.author.id == self.bot.application_id:
+        if message.author.id == self.bot.user.id:
             return
         posts = 1
       
